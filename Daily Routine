@@ -1,0 +1,82 @@
+Code:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+</head>
+<body>
+    <table border="1px" width="50%" height="100%" align="center">
+        <tr>
+                <th colspan="2">
+                    <mark>My Day</mark>
+                </th>
+        </tr>
+        <tr>
+            <td width="50%">
+                <ol start = 1 style="margin: 0px; padding-left: 100px;">
+                    <li>wake up early</li>
+                </ol>
+                <ul style="list-style: square;margin-top: 0px; padding-left: 150px;">
+                    <li>5AM</li>
+                </ul>
+                <ul style="list-style: circle; padding-left: 150px;">
+                    <br>
+                    <li>walk</li>
+                    <li>jog</li>
+                </ul>
+            </td>
+            <td rowspan="3" style="padding-top: 100px; padding-bottom: 100px;">
+                <table border="1px" width="100%" height="100%">
+                    <tr>
+                        <th colspan="3" align="center">
+                            <mark>Things to watch</mark>
+                        </th>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="Pochita.png" alt="Image 1" height="100%" width="100%"></td>
+                        <td><img src="Pochita.png" alt="Image 2" height="100%" width="100%"></td>
+                    </tr>
+                    <tr align="center">
+                        <td><img src="Pochita.png" alt="Image 3" height="100%" width="100%"></td>
+                        <td><img src="Pochita.png" alt="Image 4" height="100%" width="100%"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ol start="2" style="margin: 0px; padding-left: 100px;">
+                    <li>breakfast</li>
+                </ol>
+                <ul style="list-style: square; margin-top: 0px; padding-left: 150px;">
+                    <li>8AM</li>
+                </ul>
+                <ul style="list-style: circle; padding-left: 150px;">
+                    <br>
+                    <li>eggs</li>
+                    <li>coffee</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <ol start="3" style="margin: 0px; padding-left: 100px;">
+                    <li>go to Saveetha</li>
+                </ol>
+                <ul style="list-style: square; margin-top: 0px; padding-left: 150px;">
+                    <li>8AM</li>
+                </ul>
+                <ul style="list-style: circle; padding-left: 150px;">
+                    <br>
+                    <li>attend classes</li>
+                    <li>to be continued</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+```
